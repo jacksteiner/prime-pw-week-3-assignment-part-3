@@ -22,7 +22,8 @@ console.log('3. Second supplyChange is 1 ');
 //    array & console.log the value removed.
 
 supplyChanges.pop()
-console.log('4. Removed item:', supplyChanges);
+let removedItem =  11
+console.log('4. Removed item:', removedItem);
 
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 
@@ -35,7 +36,7 @@ console.log('5. Adding 25 to supplyChanges.', supplyChanges);
 //    - if the value is 0, log 'No Change.'
 //    - if the value is negative, format the log as 'Removed x parts.' 
 
-for(let i=-6; i<=25; i++){
+for(let i=0; i<=25; i++){
     if(supplyChanges[i] > 0 ){
         console.log('Added', supplyChanges[i], 'parts');
     }
